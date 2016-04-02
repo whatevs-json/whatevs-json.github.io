@@ -1,0 +1,37 @@
+/*
+ * Header bar
+ */
+header {
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
+/*
+ * Primary text content
+ */
+body {
+    font-size: 15px;
+    line-height: 1.5;
+    background: #FAFAFA;
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+    font-weight: 400;
+    color: #606060;
+}
+
+/* Footnote */
+#footernote {
+    border-top: 4px solid #2F7BCB;
+    float: right;
+    margin-top: 50px;
+}
+
+/* Boostrap Tweaks */
+
+#main-carousel {
+    width: 50%;
+    margin: auto;
+}
+
+#main-carousel > .carousel-inner > .item > img, 
+#main-carousel > .carousel-inner > .item > a > img {
+    margin: auto;
+}

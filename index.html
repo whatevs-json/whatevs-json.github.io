@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div id="main-carousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#main-carousel" data-slide-to="1"></li>
+  </ol>
+
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <a href="https://github.com/whatevs-json/whatevs.rb.json">
+        <img src="{{ site.url }}/assets/ruby-logo.png" alt="Ruby">
+        <div class="carousel-caption">
+          <h1>Whatevs For Ruby <small>a.k.a. Whatevs on Rails</small></h1>
+          <h2>Contains no rails, ties, or track ballast</h2>
+        </div>
+      </a>
+    </div>
+    <div class="item">
+      <a href="https://github.com/whatevs-json/whatevs.js.json">
+        <img src="{{ site.url }}/assets/js-logo.png" alt="JavaScript">
+        <div class="carousel-caption">
+          <h1>Whatevs For Javscript</h1>
+          <h2>Coming Soon!</h2>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#main-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#main-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
