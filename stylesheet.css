@@ -11,27 +11,32 @@ header {
 body {
     font-size: 15px;
     line-height: 1.5;
-    background: #FAFAFA;
+    background: #323232;
     font-family: 'Helvetica Neue', Helvetica, Arial, serif;
     font-weight: 400;
-    color: #606060;
+}
+
+#main-content {
+    color: #EFEFEF;
+}
+
+#main-content h1 small {
+    color: #A7A7A7;
+}
+
+.whatevs-lang-block {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.lang-logo {
+    max-height: 300px;
+    margin: 0 auto;
 }
 
 /* Footnote */
 #footernote {
-    border-top: 4px solid #2F7BCB;
+    border-top: 4px solid #3A4A4A;
     float: right;
     margin-top: 50px;
-}
-
-/* Boostrap Tweaks */
-
-#main-carousel {
-    width: 50%;
-    margin: auto;
-}
-
-#main-carousel > .carousel-inner > .item > img, 
-#main-carousel > .carousel-inner > .item > a > img {
-    margin: auto;
 }
